@@ -1,0 +1,152 @@
+@media screen and ( max-width: 576px) {
+
+  #banner-container{
+  background-image: none;
+  background-color: #D6EFD8;
+}
+#banner-container p{
+  color: black;
+}
+#banner-container h2{
+  color: black;
+font-size: 50px;
+line-height: 60px;
+width: 100%;
+
+}
+/* offer section */
+.offer-content h2{
+font-size: 50px;
+font-weight: 700;
+line-height: 60px;
+
+}
+.offer-content h3{
+ 
+font-size: 40px;
+line-height: 50px;
+}
+.offer-image img{
+  padding: 20px;
+}
+  /* party section */
+  #party-section{
+    background-image: none;
+    background-color: #80AF81;
+    height:auto;
+    
+  }
+  .party-section__container{
+  
+flex-direction: column;  
+}
+.party-content{
+  width:100%;
+  padding: 20px;
+  
+}
+.party-content h2{
+  
+font-size: 50px;
+font-weight: 900;
+line-height: 70px;
+
+}
+.btn{
+  width: 100%;
+}
+.party-image{
+  width: 80%;
+  /* border: 2px solid yellow; */
+  /* height: 600px; */
+}
+.best-offer-image img{
+border-radius: 50%;
+width: 50%;
+
+
+}
+/* time */
+.place-section__content P,h4,time{
+font-size: 26px;
+line-height: 50px;
+}
+/* best offer section */
+#best-offer-section{
+  height: auto;
+  border: 1px solid red;
+}
+.best-offer-container{
+flex-direction: column; 
+gap: 100px;
+justify-content: center;
+align-items: center;
+
+}
+.best-offer-image img{
+  width: 100%;
+}
+/* holidays sell */
+#holiday-sale-section{
+  margin-top: 200px;
+display: none;
+}
+/* portfolio section */
+
+#portfolio-section{
+  /* margin-top: 100px; */
+}
+.portfolio-container{
+padding-top: 50px;
+height: auto;
+
+}
+.portfolio-section-title h3{
+ 
+font-size: 38px;
+}
+
+.portfolio-items{
+  grid-template-columns: repeat(1,1fr);
+}
+.portfolio-item{
+max-width: 400px;
+height: auto;
+margin: 0 auto;
+}
+.portfolio-item img{
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+
+ }
+ /* newsletter section */
+ #newsletter-section{
+  margin-top: 50px;
+ }
+ /* footer */
+ footer{
+  height: auto;
+ }
+ #footer-section{
+
+  height:auto;
+  padding: 30px;
+  
+}
+
+ .footer-header-container{
+flex-direction: column;
+padding-top: 100px;
+}
+.footer-description{
+flex-direction: column;
+}
+.social-icon{
+  
+  font-size: 40px;
+
+gap: 10px;
+
+}
+}
